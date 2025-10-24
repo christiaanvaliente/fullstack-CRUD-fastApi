@@ -1,0 +1,22 @@
+1 crear entorno
+python -m venv venv 
+
+2 activar entorno
+.\venv\Scripts\activat
+
+3 Instlar fastapi
+pip install fastapi uvicorn
+
+4 instalar malditos CORS
+pip install python-multipart
+
+
+### este comando instala fastapi y CORS
+pip install fastapi uvicorn 'python-multipart' starlette
+
+5 instalar pydantic
+pip install pydantic
+
+
+6 ejecutar el backend
+uvicorn main:app --reload
